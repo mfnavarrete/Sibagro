@@ -1,0 +1,126 @@
+/* imagenes sacos */
+
+.post {
+    width: 450px;
+    height: 600px;
+    position: relative;
+}
+
+.post:hover .post-s {
+    width: 450px;
+}
+
+.post img {
+    display: block;
+    width: 450px;
+    height: 600px;
+}
+
+.post-s {
+    width: 0px;
+    height: 600px;
+    background: rgba(0, 128, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+    border-radius: 25px;
+}
+
+.post-s h2 {
+    color: white;
+    font-size: 50px;
+    border: 6px solid white;
+    padding: 10px 30px;
+}
+
+
+/* imagenes frascos */
+
+.post_frasco {
+    width: 250px;
+    height: 600px;
+    position: relative;
+}
+
+.post_frasco:hover .post-s_frasco {
+    width: 550px;
+}
+
+.post_frasco img {
+    display: block;
+    width: 250px;
+    height: 600px;
+    margin-left: 150px;
+}
+
+.post-s_frasco {
+    width: 0px;
+    height: 600px;
+    background: rgba(0, 128, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+    border-radius: 25px;
+}
+
+.post-s_frasco h2 {
+    color: white;
+    font-size: 30px;
+    border: 6px solid white;
+    padding: 20px 50px;
+}
+
+
+/* tabs */
+
+.tabContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.tabContainer .buttonContainer {
+    height: 100%;
+    border-radius: 25px;
+}
+
+.tabContainer .buttonContainer button {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #eee;
+}
+
+.tabContainer .buttonContainer button:hover {
+    background-color: #d7d4d4;
+}
+
+.tabContainer .tabPanel {
+    background-color: gray;
+    color: white;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: none;
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tabContainer .tabPanel p {
+    padding: 20px;
+}
